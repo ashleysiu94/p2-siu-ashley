@@ -1,0 +1,81 @@
+@import "variables";
+@import "mixins";
+
+
+//Template Styling
+body{
+  background-color: @cream;
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+//Hamburger Nav
+#mobile-menu {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  #hamburger-open-icon {
+    max-width: 40px;
+    padding: 10px;
+  }
+  #hamburger-close-icon {
+    max-width: 40px;
+    padding: 10px;
+  }
+  .home-logo {
+    margin: 0 auto;
+  }
+  #mobile-logo {
+    max-width: 300px;
+  }
+  #mobile-nav-dropdown{
+    background-color: @cream;
+    position: fixed;
+    margin-top: 50px;
+    width: 100%;
+    #mobile-nav-links {
+      list-style-type: none;
+      .active {
+        color: @pink;
+      }
+      li {
+        padding: 20px 0 20px 0;
+      }
+      li a {
+        font-family: p22-underground, sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: @dark-navy;
+        text-decoration: none;
+      }
+      .subnav-item {
+        font-size: .75rem;
+      }
+      li a:hover {
+        color: @pink;
+      }
+    }
+  }
+}
+
+.condensed {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 2s;
+}
+
+.show {
+  z-index: 100;
+  height: 572px;
+  transition: height ease 2s;
+}
