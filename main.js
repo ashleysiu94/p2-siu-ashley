@@ -17,3 +17,23 @@ function closeMenu() {
 
 hamburgerOpen.addEventListener("click", openMenu);
 hamburgerClose.addEventListener("click", closeMenu);
+
+//Desktop Nav Submenu Dropdown
+var desktopSubnavDropdown = document.getElementsByClassName("subnav-container");
+var about = document.getElementById("about-nav-item");
+var activities = document.getElementById("activities-nav-item");
+
+function toggleAboutMenu() {
+  desktopSubnavDropdown[0].classList.toggle("show-about-desktop");
+}
+
+about.addEventListener("mouseenter", toggleAboutMenu);
+about.addEventListener("mouseleave", toggleAboutMenu);
+
+
+function toggleActivitiesMenu() {
+  desktopSubnavDropdown[1].classList.toggle("show-activities-desktop");
+}
+
+activities.addEventListener("mouseenter", toggleActivitiesMenu);
+activities.addEventListener("mouseleave", toggleActivitiesMenu);

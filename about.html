@@ -14,7 +14,7 @@
       <div id="mobile-menu">
         <img id="hamburger-open-icon" src="images/hamburger-nav.png" title="hamburger nav icon" alt="click me">
         <img id="hamburger-close-icon" class="hide" src="images/hamburger-nav-close.png" title="hamburger nav icon" alt="click me">
-        <div id="mobile-nav-dropdown" class="condensed">
+        <nav id="mobile-nav-dropdown" class="condensed">
           <ul id="mobile-nav-links">
             <li><a href="index.html">home</a></li>
             <li><a href="about.html" class="active">about</a></li>
@@ -26,11 +26,45 @@
             <li><a href="activities.html#programs" class="subnav-item">programs</a></li>
             <li><a href="#">members</a></li>
           </ul>
-        </div>
+        </nav>
         <a href="index.html" class="home-logo">
           <img id="mobile-logo" src="images/JASNA_logos_black-logo.png" title="JASNA Logo" alt="JASNA Logo">
         </a>
       </div>
+			<!-- Desktop Nav -->
+			<div id="desktop-menu" class="hide">
+				<a href="index.html" class="home-logo">
+					<img id="desktop-logo" src="images/JASNA_logos_black-logo.png" title="JASNA Logo" alt="JASNA Logo">
+				</a>
+				<nav>
+					<ul id="desktop-nav-links">
+						<li id="about-nav-item">
+							<div class="subnav-category">
+								<a href="about.html">about<img class="triangle" src="images/desktop-nav-triangle.png" alt="dropdown" title="subnav dropdown"></a>
+								<div class="subnav-container condensed-desktop">
+									<ul class="subnav">
+										<li><a href="about.html#jasna" class="subnav-item">jasna</a></li>
+										<li><a href="about.html#austen" class="subnav-item">jane austen</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li id="activities-nav-item">
+							<div class="subnav-category">
+								<a href="activities.html">activities<img class="triangle" src="images/desktop-nav-triangle.png" alt="dropdown" title="subnav dropdown"></a>
+								<div class="subnav-container condensed-desktop">
+									<ul class="subnav">
+										<li><a href="activities.html#events" class="subnav-item">events</a></li>
+										<li><a href="activities.html#publications" class="subnav-item">publications</a></li>
+										<li><a href="activities.html#programs" class="subnav-item">programs</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">members</a></li>
+					</ul>
+				</nav>
+			</div>
     </header>
 
     <main>
