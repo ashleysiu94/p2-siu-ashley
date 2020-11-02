@@ -37,3 +37,36 @@ function toggleActivitiesMenu() {
 
 activities.addEventListener("mouseenter", toggleActivitiesMenu);
 activities.addEventListener("mouseleave", toggleActivitiesMenu);
+
+//Footer Social Media Icon Hover Effect
+var socialIcon = document.getElementsByClassName("social-icon");
+var facebook = document.getElementById("facebook");
+var twitter = document.getElementById("twitter");
+var instagram = document.getElementById("instagram");
+
+function facebookHover() {
+  facebook.src = "images/facebook-hover.png";
+}
+function facebookNoHover() {
+  facebook.src = "images/facebook.png";
+}
+socialIcon[0].addEventListener("mouseenter", facebookHover)
+socialIcon[0].addEventListener("mouseleave", facebookNoHover)
+
+function twitterHover() {
+  twitter.src = "images/twitter-hover.png";
+}
+function twitterNoHover() {
+  twitter.src = "images/twitter.png";
+}
+socialIcon[1].addEventListener("mouseenter", twitterHover)
+socialIcon[1].addEventListener("mouseleave", twitterNoHover)
+
+function instagramHover() {
+  instagram.src = "images/instagram-hover.png";
+}
+function instagramNoHover() {
+  instagram.src = "images/instagram.png";
+}
+socialIcon[2].addEventListener("mouseenter", instagramHover)
+socialIcon[2].addEventListener("mouseleave", instagramNoHover)
