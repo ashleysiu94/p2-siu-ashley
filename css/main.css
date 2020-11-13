@@ -462,7 +462,7 @@ footer #copyright {
 #home-main section h3 {
   font-family: "joanna-nova", Times, serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #141322;
 }
 #home-main section p {
@@ -492,7 +492,8 @@ footer #copyright {
   padding-bottom: 40px;
 }
 #home-main section .home-event img {
-  width: 75px;
+  width: 70px;
+  height: 70px;
 }
 #home-main section .home-event .home-event-register {
   font-family: "p22-underground-sc", sans-serif;
@@ -505,4 +506,46 @@ footer #copyright {
 }
 #home-main section .button-container {
   padding: 15px 0 25px 0;
+}
+@media (min-width: 450px) {
+  #home-main {
+    padding-bottom: 291px;
+  }
+}
+@media (min-width: 500px) {
+  #home-main section .home-event {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #home-main section .home-event img {
+    padding-right: 20px;
+  }
+}
+@media (min-width: 900px) {
+  #home-main {
+    padding-bottom: 166px;
+  }
+  #home-main #home-subcontent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #home-main #home-subcontent #young-filmmakers-line {
+    display: none;
+  }
+  #home-main #home-subcontent #home-upcoming-events {
+    border-left: solid 2px #786f61;
+  }
 }

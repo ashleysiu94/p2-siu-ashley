@@ -324,7 +324,7 @@ footer {
     h3 {
       font-family: @body-font;
       font-weight: 600;
-      font-size: 1rem;
+      font-size: 1.2rem;
       color: @dark-navy;
     }
     p {
@@ -339,7 +339,8 @@ footer {
     .home-event {
       padding-bottom: 40px;
       img {
-        width: 75px;
+        width: 70px;
+        height: 70px;
       }
       .home-event-register {
         font-family: @subheading-font;
@@ -354,6 +355,43 @@ footer {
     }
     .button-container {
       padding: 15px 0 25px 0;
+    }
+  }
+}
+
+@media (min-width: 450px) {
+  #home-main {
+    padding-bottom: 291px;
+  }
+}
+
+@media (min-width: 500px) {
+  #home-main {
+    section {
+      .home-event {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        img {
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  #home-main {
+    padding-bottom: 166px;
+    #home-subcontent{
+      display: flex;
+      flex-direction: row;
+      #young-filmmakers-line {
+        display: none;
+      }
+      #home-upcoming-events {
+        border-left: solid 2px @gray-orange;
+      }
     }
   }
 }
