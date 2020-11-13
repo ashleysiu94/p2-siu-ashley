@@ -317,7 +317,7 @@ footer {
       display: none;
       z-index: 55;
       background-color: @blue;
-      border: 2px solid @cream;
+      border: 2px solid @blue;
       flex-direction: row;
       h4 {
         writing-mode: vertical-lr;
@@ -368,6 +368,7 @@ footer {
     }
     .button {
       .main-button-style();
+      font-size: 1rem;
       width: 140px;
     }
     .home-event {
@@ -394,7 +395,7 @@ footer {
 }
 
 @media (min-width: 450px) {
-  #home-main {
+  main {
     padding-bottom: 291px;
   }
 }
@@ -408,12 +409,12 @@ footer {
       .closed {
         position: absolute;
         right: -219px;
-        top: 250px;
+        top: 275px;
       }
       .slide {
         position: absolute;
         right: 0;
-        top: 250px;
+        top: 275px;
         transition: ease-in 1s;
       }
     }
@@ -443,5 +444,110 @@ footer {
         border-left: solid 2px @gray-orange;
       }
     }
+  }
+}
+
+//About page
+#about-main {
+  padding-bottom: 447px;
+  #about-hero {
+    margin-top: 150px;
+    width: 100%;
+    video {
+      width: 100%;
+    }
+  }
+  h1, h2 {
+    font-family: @heading-font;
+    font-size: 1.5rem;
+    color: @dark-navy;
+    padding: 0 20px;
+  }
+  p {
+    font-family: @body-font;
+    font-size: 1rem;
+    color: @dark-navy;
+    padding: 0 20px;
+  }
+  #jasna-section-divider {
+    background-image: url("../images/about-jasna.jpg");
+    background-size: cover;
+    background-position: 100% 40%;
+    background-attachment: fixed;
+    height: 200px;
+    width: 100%;
+  }
+  #austen-section-divider {
+    background-image: url("../images/about-janeausten.jpg");
+    background-size: cover;
+    background-position: 60% 0%;
+    background-attachment: fixed;
+    height: 200px;
+    width: 100%;
+  }
+  #jasna, #austen {
+    padding-bottom: 40px;
+  }
+  section {
+    #vision, #mission {
+      border: 2px solid @gray-orange;
+      margin: 20px;
+    }
+    h4 {
+      font-family: @subheading-font;
+      color: @dark-navy;
+      font-size: 1rem;
+      text-align: center;
+    }
+    h3 {
+      font-family: @subheading-font;
+      color: @dark-navy;
+      font-size: 1.5rem;
+      padding: 20px 20px 0 20px;
+    }
+    h5 {
+      font-family: @body-font;
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 20px;
+    }
+    .button-container {
+      padding: 20px;
+      .button {
+        .main-button-style();
+        font-size: 1rem;
+        width: 140px;
+      }
+    }
+    img {
+      width: 100%;
+    }
+    #jasna-what-content div {
+      padding-bottom: 20px;
+    }
+    .about-what-link {
+      font-family: @subheading-font;
+      font-size: 1rem;
+      color: @pink;
+      text-decoration: none;
+      padding: 0 20px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px){
+  #jasna-core {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 900px){
+  #about-main {
+    padding-bottom: 166px;
   }
 }

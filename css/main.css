@@ -455,7 +455,7 @@ footer #copyright {
   display: none;
   z-index: 55;
   background-color: #313f74;
-  border: 2px solid #e8eae4;
+  border: 2px solid #313f74;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -517,6 +517,7 @@ footer #copyright {
   padding: 10px;
   background-color: #d6c1c2;
   border: 2px solid #141322;
+  font-size: 1rem;
   width: 140px;
 }
 #home-main section .button:hover {
@@ -546,7 +547,7 @@ footer #copyright {
   padding: 15px 0 25px 0;
 }
 @media (min-width: 450px) {
-  #home-main {
+  main {
     padding-bottom: 291px;
   }
 }
@@ -559,12 +560,12 @@ footer #copyright {
   #home-main #home-hero .closed {
     position: absolute;
     right: -219px;
-    top: 250px;
+    top: 275px;
   }
   #home-main #home-hero .slide {
     position: absolute;
     right: 0;
-    top: 250px;
+    top: 275px;
     -webkit-transition: ease-in 1s;
     transition: ease-in 1s;
   }
@@ -602,5 +603,125 @@ footer #copyright {
   }
   #home-main #home-subcontent #home-upcoming-events {
     border-left: solid 2px #786f61;
+  }
+}
+#about-main {
+  padding-bottom: 447px;
+}
+#about-main #about-hero {
+  margin-top: 150px;
+  width: 100%;
+}
+#about-main #about-hero video {
+  width: 100%;
+}
+#about-main h1,
+#about-main h2 {
+  font-family: "Chantelli Antiqua", cursive;
+  font-size: 1.5rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#about-main p {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#about-main #jasna-section-divider {
+  background-image: url("../images/about-jasna.jpg");
+  background-size: cover;
+  background-position: 100% 40%;
+  background-attachment: fixed;
+  height: 200px;
+  width: 100%;
+}
+#about-main #austen-section-divider {
+  background-image: url("../images/about-janeausten.jpg");
+  background-size: cover;
+  background-position: 60% 0%;
+  background-attachment: fixed;
+  height: 200px;
+  width: 100%;
+}
+#about-main #jasna,
+#about-main #austen {
+  padding-bottom: 40px;
+}
+#about-main section #vision,
+#about-main section #mission {
+  border: 2px solid #786f61;
+  margin: 20px;
+}
+#about-main section h4 {
+  font-family: "p22-underground-sc", sans-serif;
+  color: #141322;
+  font-size: 1rem;
+  text-align: center;
+}
+#about-main section h3 {
+  font-family: "p22-underground-sc", sans-serif;
+  color: #141322;
+  font-size: 1.5rem;
+  padding: 20px 20px 0 20px;
+}
+#about-main section h5 {
+  font-family: "joanna-nova", Times, serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 20px;
+}
+#about-main section .button-container {
+  padding: 20px;
+}
+#about-main section .button-container .button {
+  font-family: p22-underground, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #141322;
+  padding: 10px;
+  background-color: #d6c1c2;
+  border: 2px solid #141322;
+  font-size: 1rem;
+  width: 140px;
+}
+#about-main section .button-container .button:hover {
+  background-color: #d4797e;
+  color: #e8eae4;
+  border-color: #e8eae4;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
+#about-main section img {
+  width: 100%;
+}
+#about-main section #jasna-what-content div {
+  padding-bottom: 20px;
+}
+#about-main section .about-what-link {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: 1rem;
+  color: #d4797e;
+  text-decoration: none;
+  padding: 0 20px;
+}
+#about-main section .about-what-link:hover {
+  text-decoration: underline;
+}
+@media (min-width: 600px) {
+  #jasna-core {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media (min-width: 900px) {
+  #about-main {
+    padding-bottom: 166px;
   }
 }
