@@ -13,3 +13,20 @@
   color: #e8eae4;
   text-decoration: none;
 }
+.main-button-style {
+  font-family: p22-underground, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #141322;
+  padding: 10px;
+  background-color: #d6c1c2;
+  border: 2px solid #141322;
+}
+.main-button-style:hover {
+  background-color: #d4797e;
+  color: #e8eae4;
+  border-color: #e8eae4;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
