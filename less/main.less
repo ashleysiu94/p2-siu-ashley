@@ -313,6 +313,40 @@ footer {
       .main-button-style();
       z-index: 50;
     }
+    #slideout {
+      display: none;
+      z-index: 55;
+      background-color: @blue;
+      border: 2px solid @cream;
+      flex-direction: row;
+      h4 {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        font-family: @subheading-font;
+        font-size: 1rem;
+        color: @cream;
+        padding: 10px 0;
+      }
+      #slideout-content {
+        background-color: @cream;
+        padding: 0 10px;
+        width: 200px;
+        p {
+          font-family: @body-font;
+          font-size: 1rem;
+        }
+        a {
+          text-decoration: none;
+          font-family: @subheading-font;
+          font-size: 1rem;
+          color: @blue;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
   }
   section {
     padding: 20px;
@@ -367,6 +401,22 @@ footer {
 
 @media (min-width: 500px) {
   #home-main {
+    #home-hero {
+      #slideout {
+        display: flex;
+      }
+      .closed {
+        position: absolute;
+        right: -219px;
+        top: 250px;
+      }
+      .slide {
+        position: absolute;
+        right: 0;
+        top: 250px;
+        transition: ease-in 1s;
+      }
+    }
     section {
       .home-event {
         display: flex;

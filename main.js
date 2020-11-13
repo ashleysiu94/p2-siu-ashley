@@ -38,6 +38,17 @@ function toggleActivitiesMenu() {
 activities.addEventListener("mouseenter", toggleActivitiesMenu);
 activities.addEventListener("mouseleave", toggleActivitiesMenu);
 
+//Slideout Ad on Homepage
+var slideoutAd = document.getElementById("slideout")
+
+window.onscroll = function() {slideAd()};
+
+function slideAd() {
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    slideoutAd.classList.add("slide");
+  }
+}
+
 //Footer Social Media Icon Hover Effect
 var socialIcon = document.getElementsByClassName("social-icon");
 var facebook = document.getElementById("facebook");
