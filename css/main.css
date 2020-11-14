@@ -633,7 +633,7 @@ footer #copyright {
   background-size: cover;
   background-position: 100% 40%;
   background-attachment: fixed;
-  height: 200px;
+  height: 45vh;
   width: 100%;
 }
 #about-main #austen-section-divider {
@@ -641,7 +641,7 @@ footer #copyright {
   background-size: cover;
   background-position: 60% 0%;
   background-attachment: fixed;
-  height: 200px;
+  height: 45vh;
   width: 100%;
 }
 #about-main #jasna,
@@ -709,8 +709,63 @@ footer #copyright {
 #about-main section .about-what-link:hover {
   text-decoration: underline;
 }
+@media (min-width: 450px) {
+  #about-main {
+    padding-bottom: 291px;
+  }
+}
 @media (min-width: 600px) {
-  #jasna-core {
+  #about-main #jasna-core {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #about-main #jasna #jasna-what-content .jasna-what-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #about-main #jasna #jasna-what-content .jasna-what-row img {
+    width: 275px;
+    height: 275px;
+  }
+  #about-main #jasna #jasna-what-content .jasna-what-row div {
+    padding: 0 10px 20px 10px;
+    width: 275px;
+  }
+  #about-main #austen section img {
+    width: 40%;
+    padding: 0 20px;
+    float: left;
+  }
+  #about-main #austen section h3 {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 900px) {
+  #about-main {
+    padding-bottom: 166px;
+  }
+  #about-main #jasna-what-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #about-main #austen-buttons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -720,8 +775,23 @@ footer #copyright {
             flex-direction: row;
   }
 }
-@media (min-width: 900px) {
-  #about-main {
-    padding-bottom: 166px;
+@media (min-width: 1190px) {
+  #about-main #jasna-what-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #about-main #jasna-what-content .jasna-what-row {
+    width: 50%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
