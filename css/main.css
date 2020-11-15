@@ -559,7 +559,7 @@ footer #copyright {
   }
   #home-main #home-hero .closed {
     position: absolute;
-    right: -219px;
+    right: -225px;
     top: 275px;
   }
   #home-main #home-hero .slide {
@@ -794,4 +794,243 @@ footer #copyright {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+}
+#activities-main {
+  padding-bottom: 447px;
+}
+#activities-main #activities-hero {
+  margin-top: 150px;
+  width: 100%;
+}
+#activities-main #activities-hero video {
+  width: 100%;
+}
+#activities-main h1,
+#activities-main h2 {
+  font-family: "Chantelli Antiqua", cursive;
+  font-size: 1.5rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#activities-main p {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#activities-main #events {
+  padding-bottom: 40px;
+}
+#activities-main #events #events-section-divider {
+  background-image: url("../images/activities-events.jpg");
+  background-size: cover;
+  background-position: 60% 50%;
+  background-attachment: fixed;
+  height: 45vh;
+  width: 100%;
+}
+#activities-main #events h3 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: 1.2rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#activities-main #events img {
+  padding: 5px 20px;
+  width: 70px;
+  height: 70px;
+}
+#activities-main #events h4 {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1rem;
+  color: #141322;
+  font-weight: 600;
+  padding: 0 20px;
+  margin: 10px 0 0 0;
+}
+#activities-main #events .event p {
+  margin: 0;
+}
+#activities-main #events .button-container {
+  padding: 20px 20px 40px 20px;
+}
+#activities-main #events .button-container .button {
+  font-family: p22-underground, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #141322;
+  padding: 10px;
+  background-color: #d6c1c2;
+  border: 2px solid #141322;
+  font-size: 1rem;
+  width: 140px;
+}
+#activities-main #events .button-container .button:hover {
+  background-color: #d4797e;
+  color: #e8eae4;
+  border-color: #e8eae4;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
+#activities-main #events #agm-events-container {
+  padding: 20px;
+}
+#activities-main #events #agm-events-container #agm-2021,
+#activities-main #events #agm-events-container #agm-2022 {
+  border: 2px solid #786f61;
+}
+#activities-main #events #agm-events-container #agm-2021 h4,
+#activities-main #events #agm-events-container #agm-2022 h4 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: 1.1rem;
+  color: #141322;
+}
+#activities-main #events #agm-events-container #agm-2021 h5,
+#activities-main #events #agm-events-container #agm-2022 h5 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: .8rem;
+  color: #141322;
+  padding-left: 20px;
+  margin: 0;
+}
+#activities-main #events #agm-events-container #agm-2021 h6,
+#activities-main #events #agm-events-container #agm-2022 h6 {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1.25rem;
+  color: #141322;
+  padding-left: 20px;
+  margin: 40px 20px 10px 0;
+}
+#activities-main #events #agm-events-container #agm-2022 {
+  margin-top: 20px;
+}
+#activities-main #events #tours article ul {
+  list-style-type: circle;
+  padding-right: 20px;
+}
+#activities-main #events #tours article ul li {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1rem;
+  color: #141322;
+}
+#activities-main #events #tours #england-trip-2021 {
+  border: 2px solid #786f61;
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+#activities-main #events #tours #england-trip-2021 h4 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: 1.1rem;
+  color: #141322;
+}
+#activities-main #events #tours #england-trip-2021 h5 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: .8rem;
+  color: #141322;
+  padding-left: 20px;
+  margin: 0;
+}
+#activities-main #events #tours #england-trip-2021 h6 {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1.25rem;
+  color: #141322;
+  padding-left: 20px;
+  margin: 40px 20px 10px 0;
+}
+#activities-main #events #tours #england-trip-2021 .button-container {
+  padding: 20px;
+}
+#activities-main #publications {
+  padding-bottom: 20px;
+}
+#activities-main #publications #publications-section-divider {
+  background-image: url("../images/activities-publications.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+  background-attachment: fixed;
+  height: 45vh;
+  width: 100%;
+}
+#activities-main #publications .publications-row .publication {
+  margin: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #786f61;
+}
+#activities-main #publications .publications-row h4 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: 1.1rem;
+  color: #141322;
+  padding-left: 20px;
+}
+#activities-main #publications .publications-row h6 {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1.25rem;
+  color: #141322;
+  padding-left: 20px;
+  margin: 40px 20px 10px 0;
+}
+#activities-main #publications .publications-row .button-container {
+  padding: 20px;
+}
+#activities-main #publications .publications-row .button-container .button {
+  font-family: p22-underground, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #141322;
+  padding: 10px;
+  background-color: #d6c1c2;
+  border: 2px solid #141322;
+  font-size: 1rem;
+  width: 140px;
+}
+#activities-main #publications .publications-row .button-container .button:hover {
+  background-color: #d4797e;
+  color: #e8eae4;
+  border-color: #e8eae4;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
+#activities-main #programs {
+  padding-bottom: 20px;
+}
+#activities-main #programs #programs-section-divider {
+  background-image: url("../images/activities-programs.JPG");
+  background-size: cover;
+  background-position: 55% 0%;
+  background-attachment: fixed;
+  height: 45vh;
+  width: 100%;
+}
+#activities-main #programs #essay img,
+#activities-main #programs #visitor-program img {
+  width: 100%;
+}
+#activities-main #programs #essay h3,
+#activities-main #programs #visitor-program h3 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: 1.2rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#activities-main #programs #essay h4,
+#activities-main #programs #visitor-program h4 {
+  font-family: "joanna-nova", Times, serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #141322;
+  padding-left: 20px;
+}
+#activities-main #programs #essay p span,
+#activities-main #programs #visitor-program p span {
+  font-weight: 600;
+}
+#activities-main #programs #essay .programs-bold-para,
+#activities-main #programs #visitor-program .programs-bold-para {
+  font-weight: 600;
+}
+#activities-main #programs #essay ul,
+#activities-main #programs #visitor-program ul {
+  list-style-type: circle;
 }
