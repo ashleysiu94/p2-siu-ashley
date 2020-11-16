@@ -547,7 +547,7 @@ footer #copyright {
   padding: 15px 0 25px 0;
 }
 @media (min-width: 450px) {
-  main {
+  #home-main {
     padding-bottom: 291px;
   }
 }
