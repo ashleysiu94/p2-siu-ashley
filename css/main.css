@@ -1034,3 +1034,142 @@ footer #copyright {
 #activities-main #programs #visitor-program ul {
   list-style-type: circle;
 }
+#activities-main #programs #visitor-program h4 {
+  margin-bottom: 0;
+}
+#activities-main #programs #visitor-program p {
+  margin-top: 0;
+}
+@media (min-width: 450px) {
+  #activities-main {
+    padding-bottom: 291px;
+  }
+}
+@media (min-width: 600px) {
+  #activities-main #events section #upcoming-events .event-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #activities-main #events section #upcoming-events .event {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  #activities-main #events section #tours #england-trip-2021 #england-trip-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media (min-width: 750px) {
+  #activities-main #events #agm-events-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #activities-main #events #agm-events-container div {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  #activities-main #events #agm-events-container #agm-2021 {
+    margin-right: 10px;
+  }
+  #activities-main #events #agm-events-container #agm-2022 {
+    margin: 0 0 0 10px;
+    position: relative;
+  }
+  #activities-main #events #agm-events-container #agm-2022 .button-container {
+    max-height: 20px;
+    position: absolute;
+    bottom: 0;
+  }
+  #activities-main #programs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #activities-main #programs #essay {
+    padding-bottom: 20px;
+  }
+  #activities-main #programs #essay img {
+    width: 50%;
+    height: 50%;
+    margin: 0 20px;
+    float: left;
+  }
+  #activities-main #programs #visitor-program img {
+    width: 50%;
+    height: 50%;
+    margin: 0 20px;
+    float: right;
+  }
+}
+@media (min-width: 900px) {
+  #activities-main {
+    padding-bottom: 166px;
+  }
+  #publications .publications-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #publications .publications-row div {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  #publications .publications-row .publication {
+    position: relative;
+    height: 450px;
+  }
+  #publications .publications-row .button-container {
+    position: absolute;
+    bottom: 20px;
+  }
+}
+@media (min-width: 1250px) {
+  #publications .publications-row .publication {
+    height: 350px;
+  }
+  #programs section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #essay img,
+  #visitor-program img {
+    max-width: 625px;
+  }
+}

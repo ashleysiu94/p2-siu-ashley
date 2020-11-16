@@ -818,5 +818,139 @@ footer {
         list-style-type: circle;
       }
     }
+    #visitor-program {
+        h4 {
+          margin-bottom: 0;
+        }
+        p {
+          margin-top: 0;
+        }
+    }
+  }
+}
+
+@media (min-width: 450px){
+  #activities-main {
+    padding-bottom: 291px;
+  }
+}
+
+@media (min-width: 600px){
+  #activities-main {
+    #events {
+      section {
+        #upcoming-events {
+          .event-container {
+            display: flex;
+            flex-direction: row;
+          }
+          .event {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 20px;
+          }
+        }
+        #tours {
+          #england-trip-2021 {
+            #england-trip-buttons {
+              display: flex;
+              flex-direction: row;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 750px){
+  #activities-main {
+    #events {
+      #agm-events-container {
+        display: flex;
+        flex-direction: row;
+        div {
+          flex-basis: 50%;
+        }
+        #agm-2021 {
+          margin-right: 10px;
+        }
+        #agm-2022 {
+          margin: 0 0 0 10px;
+          position: relative;
+          .button-container {
+            max-height: 20px;
+            position: absolute;
+            bottom: 0;
+          }
+        }
+      }
+    }
+    #programs {
+      display: flex;
+      flex-direction: column;
+      #essay {
+        img {
+          width: 50%;
+          height: 50%;
+          margin: 0 20px;
+          float: left;
+        }
+        padding-bottom: 20px;
+      }
+      #visitor-program {
+        img {
+          width: 50%;
+          height: 50%;
+          margin: 0 20px;
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  #activities-main {
+    padding-bottom: 166px;
+  }
+  #publications {
+    .publications-row {
+      display: flex;
+      flex-direction: row;
+      div {
+        flex-basis: 50%;
+      }
+      .publication {
+        position: relative;
+        height: 450px;
+      }
+      .button-container {
+        position: absolute;
+        bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  #publications {
+    .publications-row {
+      .publication {
+        height: 350px;
+      }
+    }
+  }
+  #programs {
+    section {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  #essay, #visitor-program {
+    img {
+      max-width: 625px;
+    }
   }
 }
