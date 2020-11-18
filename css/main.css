@@ -1173,3 +1173,82 @@ footer #copyright {
     max-width: 625px;
   }
 }
+#activities-bookclub-main {
+  padding-bottom: 467px;
+}
+#activities-bookclub-main #bookclub-hero-divider {
+  background-image: url("../images/activities-bookclub-hero.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+  background-attachment: fixed;
+  margin-top: 150px;
+  height: 45vh;
+  width: 100%;
+}
+#activities-bookclub-main h1 {
+  font-family: "Chantelli Antiqua", cursive;
+  font-size: 1.5rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#activities-bookclub-main p {
+  font-family: "joanna-nova", Times, serif;
+  font-size: 1rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#activities-bookclub-main article h2 {
+  font-family: "p22-underground-sc", sans-serif;
+  font-size: 1.2rem;
+  color: #141322;
+  padding: 0 20px;
+}
+#activities-bookclub-main #viewer-canvas {
+  width: 280px;
+  height: 500px;
+  margin: 0 auto;
+}
+@media (min-width: 450px) {
+  #activities-bookclub-main {
+    padding-bottom: 311px;
+  }
+  #activities-bookclub-main #viewer-canvas {
+    width: 410px;
+    height: 600px;
+  }
+}
+@media (min-width: 750px) {
+  #activities-bookclub-main {
+    padding-bottom: 311px;
+  }
+  #activities-bookclub-main #bookclub-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #activities-bookclub-main #bookclub-content #viewer-canvas {
+    margin: 20px;
+  }
+}
+@media (min-width: 900px) {
+  #activities-bookclub-main {
+    padding-bottom: 186px;
+  }
+  #activities-bookclub-main #bookclub-content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #activities-bookclub-main #bookclub-content article {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  #activities-bookclub-main #bookclub-content #viewer-canvas {
+    width: 550px;
+    height: 650px;
+  }
+}

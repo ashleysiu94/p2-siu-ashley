@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>JASNA | Activities</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+    <header>
+			<!-- Mobile Header -->
+      <div id="mobile-menu">
+        <img id="hamburger-open-icon" src="images/hamburger-nav.png" title="hamburger nav icon" alt="click me">
+        <img id="hamburger-close-icon" class="hide" src="images/hamburger-nav-close.png" title="hamburger nav icon" alt="click me">
+        <nav id="mobile-nav-dropdown" class="condensed">
+          <ul id="mobile-nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="about.html#jasna" class="subnav-item">jasna</a></li>
+            <li><a href="about.html#austen" class="subnav-item">jane austen</a></li>
+            <li><a href="activities.html" class="active">activities</a></li>
+            <li><a href="activities.html#events" class="subnav-item">events</a></li>
+            <li><a href="activities.html#publications" class="subnav-item">publications</a></li>
+            <li><a href="activities.html#programs" class="subnav-item">programs</a></li>
+            <li><a href="#">members</a></li>
+          </ul>
+        </nav>
+        <a href="index.html" class="home-logo">
+          <img id="mobile-logo" src="images/JASNA_logos_black-logo.png" title="JASNA Logo" alt="JASNA Logo">
+        </a>
+      </div>
+			<!-- Desktop Nav -->
+			<div id="desktop-menu" class="hide">
+				<a href="index.html" class="home-logo">
+					<img id="desktop-logo" src="images/JASNA_logos_black-logo.png" title="JASNA Logo" alt="JASNA Logo">
+				</a>
+				<nav>
+					<ul id="desktop-nav-links">
+						<li id="about-nav-item">
+							<div class="subnav-category">
+								<a href="about.html">about<img class="triangle" src="images/desktop-nav-triangle.png" alt="dropdown" title="subnav dropdown"></a>
+								<div class="subnav-container condensed-desktop">
+									<ul class="subnav">
+										<li><a href="about.html#jasna" class="subnav-item">jasna</a></li>
+										<li><a href="about.html#austen" class="subnav-item">jane austen</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li id="activities-nav-item">
+							<div class="subnav-category">
+								<a href="activities.html">activities<img class="triangle" src="images/desktop-nav-triangle.png" alt="dropdown" title="subnav dropdown"></a>
+								<div class="subnav-container condensed-desktop">
+									<ul class="subnav">
+										<li><a href="activities.html#events" class="subnav-item">events</a></li>
+										<li><a href="activities.html#publications" class="subnav-item">publications</a></li>
+										<li><a href="activities.html#programs" class="subnav-item">programs</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">members</a></li>
+					</ul>
+				</nav>
+			</div>
+    </header>
+
+    <main id="activities-bookclub-main">
+  		<div id="bookclub-hero-divider"></div>
+      <h1>November Book Club Pick</h1>
+      <div id="bookclub-content">
+        <article>
+          <h2>"Emma" by Jane Austen</h2>
+          <p>Jane Austen teased readers with the idea of a 'heroine whom no one but myself will much like', but Emma is irresistible. 'Handsome, clever, and rich', Emma is also an 'imaginist', 'on fire with speculation and foresight'. She sees the signs of romance all around her, but thinks she will never be married. Her matchmaking maps out relationships that Jane Austen ironically tweaks into a clearer perspective. Judgement and imagination are matched in games the reader too can enjoy, and the end is a triumph of understanding.</p>
+          <p>Read the book of the month in time for our discussion on Zoom on November 30, 2020 at 6pm EST. A link to the Zoom chat will be posted on this page soon.</p>
+        </article>
+        <div id="viewer-canvas"></div>
+      </div>
+    </main>
+
+    <footer>
+      <nav id="footer-nav">
+        <ul id="main-pages-footer">
+          <li><a href="index.html">home</a></li>
+          <li>
+            <a href="about.html">about</a>
+            <div class="footer-subnav">
+              <ul>
+                <li><a href="about.html#jasna">jasna</a></li>
+                <li><a href="about.html#austen">jane austen</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="activities.html">activities</a>
+            <div class="footer-subnav">
+              <ul>
+                <li><a href="activities.html#events">events</a></li>
+                <li><a href="activities.html#publications">publications</a></li>
+                <li><a href="activities.html#programs">programs</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">members</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <div id="social-icon-container">
+          <a class="social-icon" href="https://www.facebook.com/JaneAustenSocietyofNorthAmerica/" target="_blank"><img id="facebook" src="images/facebook.png" alt="Facebook" title="Facebook"></a>
+          <a class="social-icon" href="https://twitter.com/jasnaorg" target="_blank"><img id="twitter" src="images/twitter.png" alt="Twitter" title="Instagram"></a>
+          <a class="social-icon" href="https://www.instagram.com/jasnaorg/?hl=en" target="_blank"><img id="instagram" src="images/instagram.png" alt="Instagram" title="Instagram"></a>
+        </div>
+        <div id="copyright-desktop">
+          <p>copyright 2020</p>
+        </div>
+      </div>
+      <div id="copyright">
+        <p>copyright 2020</p>
+      </div>
+    </footer>
+    <!-- Main JS -->
+    <script src="main.js"></script>
+    <!-- Google Books JS -->
+    <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
+    <!-- Book Club JS -->
+    <script type="text/javascript" src="bookclub.js"></script>
+  </body>
+</html>
