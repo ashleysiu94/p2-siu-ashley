@@ -140,9 +140,6 @@ hr {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: top;
-        -ms-flex-align: top;
-            align-items: top;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
